@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">슬로건</string>
+    <string name="home">홈</string>
+    <string name="food">음식점</string>
+    <string name="com">자유게시판</string>
+    <string name="trade">중고거래</string>
+    <string name="uesrinfo">내정보</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_message"> This sample demonstrates the basic use of Camera2 API. Check the source code to see how
+        you can display camera preview and take pictures.</string>>
+
+    <string name="please_grant_permission">권한을 허용해 주세요.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

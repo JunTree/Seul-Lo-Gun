@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="홈" />
+    <item
+        android:id="@+id/food"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        android:title="음식점" />
+    <item
+        android:id="@+id/communication"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="자유게시판" />
+    <item
+        android:id="@+id/Trade"
+        android:icon="@drawable/ic_baseline_storefront_24"
+        android:title="중고장터" />
+    <item
+        android:id="@+id/userinfo"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="내정보" />
+</menu>
