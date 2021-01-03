@@ -62,3 +62,54 @@ e-mail : jungun2115@gmail.com
 ## Application Version
 - minSdkVersion : 21
 - targetSdkVersion : 30
+
+## cdoe Example
+     BottomNavigationView bottomNavigationView = findViewById(R.id.BottomNavigationView);
+                        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
+                                @Override
+                                public boolean onNavigationItemSelected(@NonNull MenuItem item){
+                                        switch(item.getItemId()){
+                                                case R.id.home:
+                                                        Log.e("홈","홈");
+                                                        HomeFragment homeFragment = new HomeFragment();
+                                                        getSupportFragmentManager().beginTransaction()
+                                                                .replace(R.id.container, homeFragment)
+                                                                .commit();
+                                                        setToolbarTitle(getResources().getString(R.string.home));
+                                                        return true;
+                                                case R.id.food:
+                                                        Log.e("음식점","음식점");
+                                                        FoodStoreFragment foodStoreFragment = new FoodStoreFragment();
+                                                        getSupportFragmentManager().beginTransaction()
+                                                                .replace(R.id.container, foodStoreFragment)
+                                                                .commit();
+                                                        setToolbarTitle(getResources().getString(R.string.food));
+                                                        return true;
+
+                                                case R.id.communication:
+                                                        Log.e("자유게시판","자유게시판");
+                                                        CommunicationFragment communicationFragment = new CommunicationFragment();
+                                                        getSupportFragmentManager().beginTransaction()
+                                                                .replace(R.id.container, communicationFragment)
+                                                                .commit();
+                                                        setToolbarTitle(getResources().getString(R.string.com));
+                                                        return true;
+
+                                                case R.id.Trade:
+                                                        Log.e("중고거래","중고거래");
+                                                        TradeFragment tradeFragment = new TradeFragment();
+                                                        getSupportFragmentManager().beginTransaction()
+                                                                .replace(R.id.container, tradeFragment)
+                                                                .commit();
+                                                        setToolbarTitle(getResources().getString(R.string.trade));
+                                                        return true;
+
+                                                case R.id.userinfo:
+                                                        Log.e("내정보","내정보");
+                                                        UesrinfoFragment uesrinfoFragment = new UesrinfoFragment();
+                                                        getSupportFragmentManager().beginTransaction()
+                                                                .replace(R.id.container, uesrinfoFragment)
+                                                                .commit();
+                                                        setToolbarTitle(getResources().getString(R.string.uesrinfo));
+                                                        return true;
+
