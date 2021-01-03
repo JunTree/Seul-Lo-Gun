@@ -51,3 +51,12 @@
     - 나의 이름, 전화번호, 주소, 프로필 사진을 확인할 수 있는 기능
 2. Logout
     - 로그아웃 
+
+-----------
+## Development Environment
+-----------
+    - Andrioid Studio @4.0
+## Application Version
+-----------
+    - minSdkVersion : 21
+    - targetSdkVersion : 30
