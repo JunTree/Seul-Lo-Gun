@@ -1,5 +1,6 @@
 # Seul-Lo-Gun
 Final project for Computer engineering
+
 e-mail : jungun2115@gmail.com
 
 ## Introduction
