@@ -15,8 +15,7 @@
 [개인정보 기능] 
 --------------
 1. Sign up , Sign in
-2. Logout
-3. Reset Password 
+2. Reset Password 
     - 회원가입시 작성한 이메일 주소로 비밀번호 재설정가능
   
 -----------
