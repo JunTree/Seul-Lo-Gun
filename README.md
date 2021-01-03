@@ -55,8 +55,8 @@
 -----------
 ## Development Environment
 -----------
-    - Andrioid Studio @4.0
+- Andrioid Studio @4.0
 ## Application Version
 -----------
-    - minSdkVersion : 21
-    - targetSdkVersion : 30
+- minSdkVersion : 21
+- targetSdkVersion : 30
