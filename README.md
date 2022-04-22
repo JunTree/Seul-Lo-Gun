@@ -63,7 +63,7 @@ e-mail : jungun2115@gmail.com
 - minSdkVersion : 21
 - targetSdkVersion : 30
 
-## cdoe Example
+## code Example
      BottomNavigationView bottomNavigationView = findViewById(R.id.BottomNavigationView);
                         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
                                 @Override
